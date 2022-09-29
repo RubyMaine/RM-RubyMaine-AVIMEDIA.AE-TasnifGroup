@@ -1,0 +1,309 @@
+@font-face {
+    font-family: Aeonik;
+    src: url('../fonts/Aeonik-Regular.otf');
+}
+@font-face {
+    font-family: Freight;
+    src: url('../fonts/Freight-Text-Book-Italic.otf');
+}
+@font-face {
+    font-family: Made-outer;
+    src: url('../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.otf');
+}
+
+:root{
+    --aeonik:"Aeonik";
+    --freight:'Freight';
+    --made-outer:"Made-outer";
+}
+.wrapper{
+    overflow-x: hidden;
+}
+.my__navs{
+    width: 100vw !important;
+    height: 10vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+nav{
+    height: 10vh;
+}
+nav.scrolled{
+    background: #222222 !important;
+    transition: 0.5s ease;
+}
+nav.scrolled .navbar-nav a{
+    color: #fff !important;
+}
+nav.scrolled .navbar-nav a::after{
+    background: #fff;
+}
+nav.scrolled .navbar-toggler-icon{
+    background-image: url('../dleimages/more_horiz.png') !important; 
+}
+.navbar-brand{
+    padding-left: 6vh;
+}
+.navbar-nav a{
+    position: relative !important;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.navbar-nav a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    background: #fff;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-nav a:hover::after{
+    width: 90%;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-toggler-icon{
+    background-image: url('../dleimages/pngwing.png') !important; 
+}
+.navbar-toggler{
+    border: none !important;
+    z-index: 100;
+    position: relative;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.contact__page{
+    margin: 15vh 5vw !important;
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{
+    font-size: 4.5vw;
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 5.8vw;
+    font-family: var(--aeonik);
+}
+.all__info h4,.clients h4,.contact__info.social h4{
+    font-weight: 700;
+    color: black;
+    font-style: normal;
+    line-height: 1.5vw;
+    font-family: var(--aeonik);
+    font-size: 1.25vw;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+}
+.social__text a{
+    color: #000;
+    font-family: var(--aeonik);
+}
+
+.contact-form .form-group label {
+    font-weight: 300;
+    color: #222222;
+    font-style: normal;
+    line-height: 1vw;
+    font-family: "Aeonik-Regular";
+    font-size: 1vw;
+}
+
+.form-group input{
+    font-weight: 300;
+    color: #000;
+    background-color: #eeeeee;
+    border: none;
+    font-family: var(--aeonik);
+    outline: none;
+    font-size: 1vw;
+}
+.form-group textarea{
+    font-weight: 300;
+    color: #000;
+    background-color: #eeeeee;
+    border: none;
+    font-family: var(--aeonik);
+    outline: none;
+    font-size: 1vw;
+}
+.contact-form .form-group{
+    margin-bottom: 1rem;
+}
+.contact-form .form-group input[type=checkbox] {
+    width: 3vw;
+    height: 3vh;
+    border: none;
+    font-family:var(--aeonik);
+}
+.contact-form .checkbox label a {
+    font-family: var(--aeonik) !important;
+    color: #000;
+}
+.contact-form button {
+    background-color: #eeeeee !important;
+    padding: 0.5rem 2rem;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Aeonik-Bold";
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.footer{
+    background: #222222;
+    font-family: var(--aeonik);
+}
+
+.logo{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 10vh;
+}
+.logo img{
+    /* width: 10vw; */
+    height: 5vh;
+    vertical-align: middle;
+}
+.footer__form{
+    display: flex;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+.footer__form form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.footer__form form input{
+    width: 100%;
+    border: none;
+    height: 5rem;
+    line-height: 5.5rem;
+    color: white !important;
+    display: block;
+    border-bottom: 0.1rem solid;
+    border-radius: 0;
+
+    background-color: transparent;
+    outline: none;
+    font-family: var(--aeonik);
+    font-weight: 400;
+    font-size: 1.25vw;
+    position: relative;
+}
+.footer__form form button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+.footer__adress{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+
+}
+.footer__adress h2{
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: var(--aeonik);
+}
+.foot__text-2{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.footer__social{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+}
+.service{
+    margin-left: 5vw;
+}
+.footer__social .social h4,
+.footer__social .service h4{
+    font-weight: 500;
+    font-family: var(--aeonik);
+}
+.social ul li,
+.service ul li{
+    list-style-type:  none;
+    color: #fff;
+}
+.social ul li a,
+.service ul li a{
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5vh;
+}
+.contact{
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+.contact h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3vw;
+}
+.footer__end{
+    background: #000;
+
+}
+.footer__end-inner p{
+    color: #666666;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 5vh;
+        left: 0;
+        background-color: #000;
+        margin-top: 5vh;
+    }
+    .navbar-nav a{
+        color: white !important;
+        font-size: 7vw;
+        text-align: center;
+        margin-top: 5vh;
+    } 
+}
+
+@media only screen and (max-width: 770px){
+    .all__info h4,.clients h4,.social h4,
+    .all__info p,.clients p,.social p
+     {
+        font-size: 1.5em;
+        letter-spacing: 0.3vw;
+        line-height: 1.5em;
+    }
+    .title h1 {
+        font-size: 8vw;
+        line-height: 5.8vw;
+    }
+}

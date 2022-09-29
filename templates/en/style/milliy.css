@@ -1,0 +1,327 @@
+@font-face {
+    font-family: Aeonik;
+    src: url('../fonts/Aeonik-Regular.otf');
+}
+@font-face {
+    font-family: Freight;
+    src: url('../fonts/Freight-Text-Book-Italic.otf');
+}
+@font-face {
+    font-family: Made-outer;
+    src: url('../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.otf');
+}
+
+:root{
+    --aeonik:"Aeonik";
+    --freight:'Freight';
+    --made-outer:"Made-outer";
+}
+.wrapper{
+    overflow-x: hidden;
+}
+#textProect{    
+    margin: 0 5vw;
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-family: var(--aeonik);
+    color: #000;
+    text-decoration: none;
+}
+.my__navs{
+    width: 100vw !important;
+    height: 10vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+nav{
+    height: 10vh;
+}
+nav.scrolled{
+    background: #222222 !important;
+    transition: 0.5s ease;
+}
+nav.scrolled .navbar-nav a{
+    color: #fff !important;
+}
+nav.scrolled .navbar-nav a::after{
+    background: #fff;
+}
+nav.scrolled .navbar-toggler-icon{
+    background-image: url('../dleimages/more_horiz.png') !important; 
+}
+.navbar-brand{
+    padding-left: 6vh;
+}
+
+.navbar-nav a{
+    position: relative !important;
+    color: #222222!important;
+    text-transform: uppercase;
+}
+.navbar-nav a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    background: #000;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-nav a:hover::after{
+    width: 90%;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-toggler-icon{
+    background-image: url('../dleimages/pngwing.png') !important; 
+}
+.navbar-toggler{
+    border: none !important;
+    z-index: 100;
+    position: relative;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ----------------------------------------------END NAVBAR------------------------------------------------ */
+
+.header{
+    margin-top: 10vh;
+}
+.header__text h1{
+    text-align: center;
+    font-size: 10vw !important;
+    font-weight: bold !important;
+    color: #000;
+    text-transform: uppercase;
+}
+.header__text-2 span{
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+}
+.under__block-hr{
+    margin-top: 40px;
+    border-top: 1px solid #363636;
+    font-family: var(--made-outer);
+}
+.header__parag p{
+    font-family: var(--aeonik);
+    margin-top: 10vh;
+    font-size: 36px;
+}
+.header__parag ul{
+    padding: 0;
+    margin-bottom: 40px;
+}
+.header__parag ul li{
+    list-style-type: none;
+}
+.header__parag ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: lighter;
+}
+.link__site a{
+    
+    padding: 14px 60px;
+    border-radius: 50px;
+    border: 1px solid #222222;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 10vh;
+ 
+}
+.header__parag-2 h4{ 
+    font-family: var(--aeonik);
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+.header__parag-2 p{
+    padding-left: 20px;
+}
+.anim_z{
+    z-index: 3;
+}
+
+
+.yellow{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    z-index: 25;
+    transition: all 1s ease;
+    background: #FDF001;
+    opacity: 1;
+    transform: translateY(400px);
+}
+
+.yellow.active{
+    transform: translateY(-100%);
+    opacity: 1;
+    height: 600px;
+    transition: 1s ease;
+}
+.on.reveal{
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 3s ease;
+}
+.on.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 3s ease;
+    z-index: 20;
+}
+
+
+
+/* -------------------------------------------------FOOOTER--------------------------------------------------------- */
+
+.footer{
+    background: #222222;
+    font-family: var(--aeonik);
+    z-index: 9999;
+    position: relative;
+}
+
+.logo{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 10vh;
+}
+.logo img{
+    /* width: 10vw; */
+    height: 5vh;
+    vertical-align: middle;
+}
+.footer__form{
+    display: flex;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+form input{
+    width: 100%;
+    border: none;
+    height: 5rem;
+    line-height: 5.5rem;
+    color: white !important;
+    display: block;
+    border-bottom: 0.1rem solid;
+    border-radius: 0;
+
+    background-color: transparent;
+    outline: none;
+    font-family: var(--aeonik);
+    font-weight: 400;
+    font-size: 1.25vw;
+    position: relative;
+}
+form button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+.footer__adress{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+
+}
+.footer__adress h2{
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: var(--aeonik);
+}
+.foot__text-2{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.footer__social{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+}
+.service{
+    margin-left: 5vw;
+}
+.footer__social .social h4,
+.footer__social .service h4{
+    font-weight: 500;
+    font-family: var(--aeonik);
+}
+.social ul li,
+.service ul li{
+    list-style-type:  none;
+    color: #fff;
+}
+.social ul li a,
+.service ul li a{
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5vh;
+}
+.contact{
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+.contact h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3vw;
+}
+.footer__end{
+    background: #000;
+
+}
+.footer__end-inner p{
+    color: #666666;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+
+
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 5vh;
+        left: 0;
+        background-color: #000;
+        margin-top: 5vh;
+    }
+    .navbar-nav a{
+        color: white !important;
+        font-size: 7vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+  
+    
+}

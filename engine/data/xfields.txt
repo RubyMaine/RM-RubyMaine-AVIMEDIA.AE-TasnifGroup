@@ -1,0 +1,54 @@
+home-title-name-uz|Nomi (O&#039;zbekcha)|2|textarea||0|0|0|0|||0|0||||||Nomlanishini o&#039;zbek tilida kiriting||||||||||0|
+home-title-name-ru|Имя (на русском языке)|2|textarea||0|0|0|0|||0|0||||||Введите имя на русском языке||||||||||0|
+home-title-name-en|Name (English)|2|textarea||0|0|0|0|||0|0||||||Enter the name in English||||||||||0|
+home-subtitle-uz|Qisqacha izohi (O&#039;zbekcha)|2|textarea||0|0|0|0|||0|0||||||Qisqacha izohni o&#039;zbek tilida kiriting||||||||||0|
+home-subtitle-ru|Краткое описание (на русском языке)|2|textarea||0|0|0|0|||0|0||||||Введите краткий комментарий на русском языке||||||||||0|
+home-subtitle-en|Brief description (English)|2|textarea||0|0|0|0|||0|0||||||Enter a brief comment in English||||||||||0|
+about-us-loyihalar|Loyihalaringiz soni (O&#039;zbekcha)|11|text||0|0|0|0|||0|0||||||Loyihalaringiz sonini o&#039;zbek tilida kiriting||||||||||0|
+about-us-xodimlar|Xodimlaringiz soni (O&#039;zbekcha)|11|text||0|0|0|0|||0|0||||||Xodimlaringizni sonini o&#039;zbek tilida kiriting||||||||||0|
+about-us-tajriba|Tajribayingiz yili (O&#039;zbekcha)|11|text||0|0|0|0|||0|0||||||Nechi yillik tajribaga egasiz o&#039;zbek tilida kiriting||||||||||0|
+about-us-hamkorlar|Hamkorlaringiz soni (O&#039;zbekcha)|11|text||0|0|0|0|||0|0||||||Siz bilan hamkorlikda ishlaydigan tashkilotlar sonini o&#039;zbek tilida kiriting||||||||||0|
+x1-uz|Xizmat turingizni nomi 1 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||1-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x1-ru|Название вашего типа услуги 1 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 1-й тип услуги на русском языке||||||||||0|
+x1-en|Name of your service type 1 (English)|12|text||1|0|0|0|||0|0||||||Enter the 1st service type in English||||||||||0|
+x2-uz|Xizmat turingizni nomi 2 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||2-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x2-ru|Название вашего типа услуги 2 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 2-й тип услуги на русском языке||||||||||0|
+x2-en|Name of your service type 2 (English)|12|text||1|0|0|0|||0|0||||||Enter the 2st service type in English||||||||||0|
+x3-uz|Xizmat turingizni nomi 3 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||3-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x3-ru|Название вашего типа услуги 3 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 3-й тип услуги на русском языке||||||||||0|
+x3-en|Name of your service type 3 (English)|12|text||1|0|0|0|||0|0||||||Enter the 3st service type in English||||||||||0|
+x4-uz|Xizmat turingizni nomi 4 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||4-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x4-ru|Название вашего типа услуги 4 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 4-й тип услуги на русском языке||||||||||0|
+x4-en|Name of your service type 4 (English)|12|text||1|0|0|0|||0|0||||||Enter the 4st service type in English||||||||||0|
+x5-uz|Xizmat turingizni nomi 5 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||5-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x5-ru|Название вашего типа услуги 5 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 5-й тип услуги на русском языке||||||||||0|
+x5-en|Name of your service type 5 (English)|12|text||1|0|0|0|||0|0||||||Enter the 5st service type in English||||||||||0|
+x6-uz|Xizmat turingizni nomi 6 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||6-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x6-ru|Название вашего типа услуги 6 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 6-й тип услуги на русском языке||||||||||0|
+x6-en|Name of your service type 6 (English)|12|text||1|0|0|0|||0|0||||||Enter the 6st service type in English||||||||||0|
+x7-uz|Xizmat turingizni nomi 7 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||7-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x7-ru|Название вашего типа услуги 7 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 7-й тип услуги на русском языке||||||||||0|
+x7-en|Name of your service type 8 (English)|12|text||1|0|0|0|||0|0||||||Enter the 7st service type in English||||||||||0|
+x8-uz|Xizmat turingizni nomi 8 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||8-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x8-ru|Название вашего типа услуги 8 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 8-й тип услуги на русском языке||||||||||0|
+x8-en|Name of your service type 8 (English)|12|text||1|0|0|0|||0|0||||||Enter the 8st service type in English||||||||||0|
+x9-uz|Xizmat turingizni nomi 9 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||9-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x9-ru|Название вашего типа услуги 9 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 9-й тип услуги на русском языке||||||||||0|
+x9-en|Name of your service type 9 (English)|12|text||1|0|0|0|||0|0||||||Enter the 9st service type in English||||||||||0|
+x10-uz|Xizmat turingizni nomi 10 (O&#039;zbekcha)|12|text||1|0|0|0|||0|0||||||10-chi xizmat turini o&#039;zbekcha kiriting||||||||||0|
+x10-ru|Название вашего типа услуги 10 (на русском языке)|12|text||1|0|0|0|||0|0||||||Введите 10-й тип услуги на русском языке||||||||||0|
+x10-en|Name of your service type 10 (English)|12|text||1|0|0|0|||0|0||||||Enter the 10st service type in English||||||||||0|
+project-direction-uz|Yo&#039;nalishlari (O&#039;zbekcha)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Bir nechta yo&#039;nalishlarini o&#039;zbek tilida kiriting||||||||||0|
+project-direction-ru|Направления (на русском языке)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Введите несколько направлений на русском языке||||||||||0|
+project-direction-en|Directions (English)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Enter multiple directions in English||||||||||0|
+project-subtitle-uz|Asosiy izohi (O&#039;zbekcha)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Belgilangan tartibdagi asosiy izohini o&#039;zbek tilida kiriting||||||||||0|
+project-subtitle-ru|Главная описание (на русском языке)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Введите главный комментарий в установленном порядке на русском языке||||||||||0|
+project-subtitle-en|Home comment (English)|3,4,5,6,7,8,15,16,17,18,19,20|textarea||0|0|0|0|||0|0||||||Enter the main comment in the prescribed order in English||||||||||0|
+mentor-direction-uz|Mentor yo&#039;nalishi (O&#039;zbekcha)|23,24,25,26,27,28|textarea||0|0|0|0|||0|0||||||Mentor yo&#039;nalishini o&#039;zbek tilida kiriting||||||||||0|
+mentor-direction-ru|Менторское направление (на русском языке)|23,24,25,26,27,28|textarea||0|0|0|0|||0|0||||||Введите направление наставника на русском языке||||||||||0|
+mentor-direction-en|Mentor direction (English)|23,24,25,26,27,28|textarea||0|0|0|0|||0|0||||||Enter the mentor direction in English||||||||||0|
+telegram|Telegram manzilini yozing|23,24,25,26,27,28|text||1|0|0|0|||0|0||||||Telegram manzilini yozing||||||||||0|
+instagram|Instagram manzilini yozing|23,24,25,26,27,28|text||1|0|0|0|||0|0||||||Instagram manzilini yozing||||||||||0|
+facebook|Facebook manzilini yozing|23,24,25,26,27,28|text||1|0|0|0|||0|0||||||Facebook manzilini yozing||||||||||0|
+twitter|Twitter manzilini yozing|23,24,25,26,27,28|text||1|0|0|0|||0|0||||||Twitter manzilini yozing||||||||||0|
+youtube|Youtube saytidan import (Umumiy)|2,3,4,5,6,7,8,16,17,18,19,20|text||1|0|0|0|||0|0||||||id raqamini kiriting||||||||||0|

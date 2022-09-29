@@ -1,0 +1,339 @@
+@font-face {
+    font-family: Aeonik;
+    src: url('../fonts/Aeonik-Regular.otf');
+}
+@font-face {
+    font-family: Freight;
+    src: url('../fonts/Freight-Text-Book-Italic.otf');
+}
+@font-face {
+    font-family: Made-outer;
+    src: url('../fonts/MADE-Outer-Sans-Regular-PERSONAL-USE.otf');
+}
+
+:root{
+    --aeonik:"Aeonik";
+    --freight:'Freight';
+    --made-outer:"Made-outer";
+}
+.wrapper{
+    overflow-x: hidden;
+}
+#textProect{    
+    margin-top: 2%;
+    padding: 0 2%;
+    font-weight: 700;
+    font-size: 4.5vw;
+    font-style: normal;
+    font-family: var(--aeonik);
+    color: #000;
+    text-decoration: none;
+}
+.my__navs{
+    width: 100vw !important;
+    height: 10vh;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+nav{
+    height: 10vh;
+}
+nav.scrolled{
+    background: #222222 !important;
+    transition: 0.5s ease;
+}
+nav.scrolled .navbar-nav a{
+    color: #fff !important;
+}
+nav.scrolled .navbar-nav a::after{
+    background: #fff;
+}
+nav.scrolled .navbar-toggler-icon{
+    background-image: url('../dleimages/more_horiz.png') !important; 
+}
+.navbar-brand{
+    padding-left: 1vh;
+}
+
+.navbar-nav a{
+    position: relative !important;
+    color: #fff!important;
+    text-transform: uppercase;
+}
+.navbar-nav a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    left: 5px;
+    bottom: 0px;
+    background: #fff;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-nav a:hover::after{
+    width: 90%;
+    transition: width 0.3s ease-in-out;
+}
+.navbar-toggler-icon{
+    background-image: url('../dleimages/pngwing.png') !important; 
+}
+.navbar-toggler{
+    border: none !important;
+    z-index: 100;
+    position: relative;
+}
+.navbar-toggler:focus{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* ----------------------------------------------END NAVBAR------------------------------------------------ */
+
+
+.under__block-hr{
+    margin-top: 40px;
+    border-top: 1px solid #363636;
+    font-family: var(--made-outer);
+}
+
+.my__tabs{
+    margin-top: 10vh;
+}
+.nav-tabs{
+    border-bottom:1px solid #AAA !important;
+    margin-bottom: 35px !important;
+}
+.nav-tabs .nav-link{
+    text-transform: uppercase;
+    color: #AAA;
+    outline: none !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid #AAAAAA !important;
+    font-family: var(--aeonik) !important;
+}
+.nav-tabs .nav-link:focus{
+    border-bottom: 1.4px solid black !important;
+}
+.nav-tabs .nav-link:hover{
+    color: #222222;
+}
+.my__tabs-inner .tabs__blocks:nth-child(even){
+    background: #b3b3b3;
+}
+.my__tabs-inner .tabs__blocks:nth-child(odd){
+    background: #c4c4c4;
+}
+.tabs__blocks{
+    
+    height: auto;
+}
+.scale_img{
+    transition: 0.3s ease; 
+    object-fit: cover;
+    width: 626px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.scale_img:hover{
+    transform:scale(1.1);
+    transition: 0.3s ease; 
+    object-fit: cover;
+}
+
+.scale_images{
+    transition: 0.3s ease; 
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.scale_images:hover{
+    transform:scale(1.1);
+    transition: 0.3s ease; 
+    object-fit: cover;
+}
+
+.proect_images{
+    width: 100%;
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.proect__img{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.medium__img{
+    margin-top: 10vh !important;
+}
+
+.under__text h3{
+    font-family: var(--aeonik);
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px !important;
+}
+.under__text span{
+    color: #AAAAAA;
+    font-size: 24px;
+    font-weight: 500;
+}
+.small__img{
+    margin: 10vh 0vh 20vh !important;
+}
+.small__col{
+    margin-bottom: 48px !important;
+}
+
+/* -------------------------------------------------FOOOTER--------------------------------------------------------- */
+
+.footer{
+    background: #222222;
+    font-family: var(--aeonik);
+}
+
+.logo{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 10vh;
+}
+.logo img{
+    /* width: 10vw; */
+    height: 5vh;
+    vertical-align: middle;
+}
+.footer__form{
+    display: flex;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+form input{
+    width: 100%;
+    border: none;
+    height: 5rem;
+    line-height: 5.5rem;
+    color: white !important;
+    display: block;
+    border-bottom: 0.1rem solid;
+    border-radius: 0;
+
+    background-color: transparent;
+    outline: none;
+    font-family: var(--aeonik);
+    font-weight: 400;
+    font-size: 1.25vw;
+    position: relative;
+}
+form button{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    color: #fff;
+}
+.footer__adress{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+
+}
+.footer__adress h2{
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: var(--aeonik);
+}
+.foot__text-2{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.footer__social{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 10vh;
+}
+.service{
+    margin-left: 5vw;
+}
+.footer__social .social h4,
+.footer__social .service h4{
+    font-weight: 500;
+    font-family: var(--aeonik);
+}
+.social ul li,
+.service ul li{
+    list-style-type:  none;
+    color: #fff;
+}
+.social ul li a,
+.service ul li a{
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5vh;
+}
+.contact{
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    flex-direction: column;
+}
+.contact h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.3vw;
+}
+.footer__end{
+    background: #000;
+
+}
+.footer__end-inner p{
+    color: #666666;
+    text-transform: uppercase;
+    margin: 0 !important;
+}
+
+
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 5vh;
+        left: 0;
+        background-color: #000;
+        margin-top: 5vh;
+    }
+    .navbar-nav a{
+        color: white !important;
+        font-size: 7vw;
+        text-align: center;
+        margin-top: 5vh;
+    }
+    .partners__img img{
+        margin: 5rem 0rem !important;
+    }
+    
+}
